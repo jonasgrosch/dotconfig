@@ -1,0 +1,16 @@
+theme = "dracula"
+
+[editor]
+line-number = "relative"
+mouse = false
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "file-name"]
